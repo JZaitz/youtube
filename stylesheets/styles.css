@@ -1,0 +1,285 @@
+/* Section Header Nav Bar */
+
+.logo {
+  width: 72px;
+  margin-left: 20px;
+}
+#menu {
+  position: absolute;
+  top: 10px;
+}
+
+nav {
+  background-color: #fff;
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 5px 0;
+}
+
+.button {
+  float: right;
+  position: relative;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin: 5px 10px;
+  font-size: 11px;
+}
+
+.sign-up {
+  margin-right: 35px;
+  background-color: #167ac6;
+  color: #f1f1f1;
+}
+
+.sign-up:hover {
+  background-color: #006db9;
+}
+
+.upload {
+  background-color: #f8f8f8;
+  border: 1px solid #d3d3d3;
+}
+
+.upload:hover {
+  background-color: #e7e7e7;
+}
+
+
+/* Section Header Body */
+
+body {
+  background-color: #f1f1f1;
+  font-family: 'Roboto',arial,sans-serif;
+}
+
+.container {
+  width: 1066px;
+  margin: 55px auto 0 auto;
+  background-color: purple;
+}
+
+/* Section Header Aside Right  */
+
+aside {
+  width: 418px;
+  float: right;
+  background-color: #fff;
+  position: relative;
+}
+
+aside h3 {
+  margin: 10px 18px 5px 18px;
+  font-size: 13px;
+}
+
+
+
+.links_container {
+  width: 214px;
+  float: right;
+  background-color: #9e9f9g;
+}
+
+.links {
+  margin: 0 0 0 18px;
+  font-family: 'Roboto',arial,sans-serif;
+  font-style: normal;
+  text-decoration-style: solid;
+}
+
+h4.links {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #333;
+}
+
+span.links {
+  font-size: 11px;
+  display: block;
+  font-weight:400;
+  color: #767676;
+}
+
+ .video-link-container {
+  width: 382px;
+  margin: 0 18px;
+  padding-top: 9px;
+}
+
+.first_box {
+  padding-bottom: 17px;
+  margin-bottom: 9px;
+  border-bottom: 1px solid #e2e2e2;
+}
+/* Section Header Video Information */
+
+iframe {
+  float: left;
+}
+
+section {
+  width: 610px;
+  float: left;
+  background-color: #fff;
+  position: relative;
+  margin-top: 12px;
+  padding: 15px 15px 5px 15px;
+}
+
+.video-details a {
+  text-decoration: none;
+  float: left;
+  margin: -2px 0 0px 5px;
+  font-weight: 500;
+
+}
+
+.video-details img {
+  margin-left: -5px;
+  float: left;
+}
+
+section h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin; 0 0 15px -1px;
+}
+
+.video_poster {
+  position: relative;
+  color: #333;
+
+}
+
+.subscribe {
+  position: relative;
+  border: 1px solid #d3d3d3;
+  background: #e52215 url(../images/icon32.png) no-repeat scroll 5px center;
+  color: white;
+  padding: 4px 4px 4px 39px;
+  font: 11px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.subscribe:hover {
+  background-color: #cf1820;
+}
+
+.subscribers {
+  font-size: 12px;
+  color: #737373;
+  border: 1px solid #d3d3d3;
+  border-left: none;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 4px 6px 1.5px 6px;
+ }
+
+ .views {
+   position: relative;
+   float: right;
+   border-bottom: 2px solid #66676c;
+   padding: 0 5px 0 45px;
+   line-height: 24px;
+   font-size: 19px;
+   color: #66676c;
+ }
+
+ .share-bar {
+  margin: 20px 0 5px 0;
+  clear: both;
+ }
+
+
+
+/* Section Header Show More*/
+
+.video-information h6 {
+  font-size: 13px;
+  margin: 2px 0 0 0;
+}
+
+.video_information p {
+  font-size: 13px;
+  margin: 7px 0;
+}
+
+.show-more {
+  border-top: 1px solid #d3d3d3;
+  position: relative;
+  margin-top: 15px;
+  padding: 4px 0;
+}
+
+.show-more p {
+  text-align: center;
+  text-transform: uppercase;
+  color: #737373;
+  font-size: 11px;
+  margin: 2px 0;
+}
+
+.show-more a {
+  text-decoration: none;
+}
+
+.show-more p:hover {
+  color: #1f2217;
+}
+
+
+
+/* Section Header Comments */
+input {
+  position: relative;
+  float: right;
+  height: 42px;
+  width: 540px;
+  font-size: 12px;
+}
+
+.first-box {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.first-box h5 {
+  margin-top: -15px;
+}
+
+.comment-container {
+  position: relative;
+  float: left;
+  margin-top: 20px;
+}
+
+.comment-container img {
+  position: relative;
+  float: left;
+  margin-right: 14px;
+}
+
+.user {
+  color: #128ee9;
+  font-size: 13px;
+}
+
+.time {
+  text-decoration: none;
+  color: #737373;
+  font-size: 11px;
+  margin-left: 4px;
+}
+
+.comment-container p {
+  margin: 4px 0 0 0;
+  position: relative;
+  float: left;
+  font-size: 13px;
+  width: 545px;
+}
